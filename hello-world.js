@@ -37,5 +37,4 @@ class HsnbdHelloWorld extends HTMLElement {
         console.log("Element removed from dom")
     }
 }
-
 window.customElements.define('hsnbd-hello-world', HsnbdHelloWorld);
