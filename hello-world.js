@@ -1,4 +1,4 @@
-class AppNavbar extends HTMLElement {
+class HsnbdHelloWorld extends HTMLElement {
     constructor() {
         super();
         const _style = document.createElement('style');
@@ -38,4 +38,4 @@ class AppNavbar extends HTMLElement {
     }
 }
 
-window.customElements.define('app-navbar', AppNavbar);
+window.customElements.define('hsnbd-hello-world', HsnbdHelloWorld);
